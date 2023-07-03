@@ -4,6 +4,7 @@ on:
       branches: [ main ]
       paths:
         - 'part2/04-cicd/**'
+        - '.github/workflows/deploy_ssh.yml'
 
 jobs:
   build:
